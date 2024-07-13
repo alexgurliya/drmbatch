@@ -23,7 +23,7 @@ app = Client(
 )
 
 # MongoDB setup
-mongo_uri = "mongodb+srv://successspark09:tushar@filestore12.dnbo7vb.mongodb.net/?retryWrites=true&w=majority&appName=filestore12"
+mongo_uri = "mongodb+srv://rajeshpro123321:Vs9n8R90yUtCIyu4@clonestore1.w51yrrp.mongodb.net/?retryWrites=true&w=majority&appName=clonestore1"
 client = MongoClient(mongo_uri)
 db = client["bot_database"]
 user_collection = db["user_details"]
