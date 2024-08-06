@@ -51,7 +51,7 @@ class Penpencil:
     otp_url = "https://api.penpencil.xyz/v1/videos/get-otp?key="
 
     def __init__(self, token: str):
-        #self.token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjAwOTY5OTkuODczLCJkYXRhIjp7Il9pZCI6IjYwY2UxMzU0ZDdlMjNjMDAxMTBkYzU1OCIsInVzZXJuYW1lIjoiOTk2NzI2MzMwMyIsImZpcnN0TmFtZSI6IkRldmFuc2giLCJsYXN0TmFtZSI6IkJoYW51c2hhbGkiLCJvcmdhbml6YXRpb24iOnsiX2lkIjoiNWViMzkzZWU5NWZhYjc0NjhhNzlkMTg5Iiwid2Vic2l0ZSI6InBoeXNpY3N3YWxsYWguY29tIiwibmFtZSI6IlBoeXNpY3N3YWxsYWgifSwiZW1haWwiOiJkZXZhbnNoYmhhbnVzaGFsaTEyQGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJ0eXBlIjoiVVNFUiJ9LCJpYXQiOjE3MTk0OTIxOTl9.T4p_zzFHmL1FYIh7ZddaytjQuvImofVluswVPF1_GFM"
+        #self.token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjM1NTUwMzAuMjA5LCJkYXRhIjp7Il9pZCI6IjY2MTNkZTU4MTI5NWM3ZWQ1Mzg0NTg4YiIsInVzZXJuYW1lIjoiOTIzODc3MjYzMCIsImZpcnN0TmFtZSI6IkxlZW5hIiwibGFzdE5hbWUiOiJEaGFiYWxlIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiZGhhYmFsZWhvbWVAZ21haWwuY29tIiwicm9sZXMiOlsiNWIyN2JkOTY1ODQyZjk1MGE3NzhjNmVmIiwiNWNjOTVhMmU4YmRlNGQ2NmRlNDAwYjM3Il0sImNvdW50cnlHcm91cCI6IklOIiwidHlwZSI6IlVTRVIifSwiaWF0IjoxNzIyOTUwMjMwfQ.sExnT31-wKw-Xr1SJ3wR8rpvlM1skPiSmuHlFSOEDLU"
         self.token = token
         self.headers = {
             "Host": "api.penpencil.xyz",
