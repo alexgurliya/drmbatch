@@ -17,8 +17,8 @@ import subprocess
 app = Client(
     "bot",
     #bot_token="6178250261:AAGx5Z-uofPm2AASeFpvlx_zEQj0PAy99n0",
-    bot_token="",
-    api_id= ,
+    bot_token="7262347573:AAF6G6jCXC5gOMz-ubKoJKPbaoZDnYF7sgY",
+    api_id= 24798261,
     api_hash="fef280037f5759eccc540c6d7a279a14"
 )
 
@@ -29,8 +29,8 @@ db = client["bot_database"]
 user_collection = db["user_details"]
 
 # Global variables
-owner_id = 
-auth_users = []
+owner_id = 6155478725
+auth_users = [6155478725,5347709348]
 token = ""
 batch_ids = {}
 batch_name_dict = {}
