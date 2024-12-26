@@ -54,17 +54,17 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Developer",
-                url="",
+                url="t.me/love4allxd",
             ),
             InlineKeyboardButton(
                 text="❣️ KINDNESS",
-                url="",
+                url="t.me/love4allxd",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="🪄 Main Channel",
-                url="",
+                url="t.me/love4allxd",
             ),
         ],
     ]
@@ -75,7 +75,7 @@ Busy = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Developer",
-                url="",
+                url="t.me/love4allxd",
             ),
         ],
     ]
