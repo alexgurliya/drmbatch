@@ -19,7 +19,7 @@ app = Client(
     #bot_token="6178250261:AAGx5Z-uofPm2AASeFpvlx_zEQj0PAy99n0",
     bot_token="",
     api_id= ,
-    "
+    api_hash="fef280037f5759eccc540c6d7a279a14"
 )
 
 # MongoDB setup
@@ -182,7 +182,7 @@ async def extract_video_id(url, res, token, schedule):
             end_unix = int(datetime.datetime.strptime(end_time, "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=datetime.timezone.utc).timestamp())
             
             # Construct the new URL
-            url = f"https://extractor-8376.onrender.com?v={url}&quality={res}&start={start_unix}&end={end_unix}&token={token}"
+            url = f"https://madxpw.onrender.com?v={url}&quality={res}&start={start_unix}&end={end_unix}&token={token}"
             print(f"Constructed URL: {url}")
     
     return url, key, mapped_qual  # Return URL, key, and mapped quality for non-YouTube links
